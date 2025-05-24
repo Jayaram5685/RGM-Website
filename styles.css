@@ -1,0 +1,309 @@
+/* Background with image + dark overlay */
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+.bg-container {
+  background-image: url('./images/rajeev.avif'); 
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.middle-container {
+  position: relative;
+  z-index: 2;
+  max-width: 80%;
+}
+
+.middle-container h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.middle-container p{
+    color: rgb(245, 234, 234);
+    font-size: 24px;
+    font-family: "Roboto";
+}
+
+.middle-container span {
+  color: #f4f4fd;
+  text-underline-offset: 8px;
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+.button{
+    height: 40px;
+    width: 130px;
+    cursor: pointer;
+
+}
+.button:hover{
+    background-color: rgba(71, 86, 185, 0.771);
+    transition:all 2s ease-in-out;
+}
+
+.icons{
+    font-size: 20px;
+}
+
+.login-container{
+    height: 95vh;
+    background-color: rgb(212, 212, 204);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.login-section{
+    height: 60vh;
+    width: 25vw;
+    background-color: rgb(240, 248, 255);
+    box-shadow: 5px 6px 15px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    border-top: 4px solid hsl(248, 81%, 39%); 
+}
+
+.login-section hr{
+    height: 0.5px;
+    background-color: rgba(1, 5, 5, 0.312);
+}
+.login-section h1 span{
+    font-weight: 400;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 6px 12px;
+  background-color: #fff;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.inputs {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  padding: 4px;
+  font-size: 16px;
+}
+
+.login-icon i {
+  font-size: 20px;
+  color: hsla(0, 0%, 33%, 0.916);
+}
+.arrow{
+    background-color:lightseagreen;
+    border-radius: 4px;
+    color: white;
+    padding: 9px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.arrow:hover{
+    background-color: rgba(9, 103, 103, 0.644);
+    transition: all 0.3s ease-in-out;
+}
+.carousel-inner{
+  height: 600px;
+}
+
+body {
+  padding-top: 56px; /* or the height of your navbar */
+}
+
+.about-history{
+  background-color: #fff;
+  height: 70vh;
+  background-size: cover;
+  padding: 80px;
+
+
+}
+.history{
+  color: orange;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+.about-history h1{
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 39px;
+  padding-bottom: 3px;
+}
+.about-history p{
+  font-size: 16px;
+}
+
+
+
+.education {
+  background-color: #e6113cec;
+  height: 120vh;
+  background-size: cover;
+  padding: 48px;
+}
+
+.education h1 span{
+  color: #fff;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+.education h1{
+  color: black;
+  font-family: "Roboto";
+  padding-top: 60px;
+  padding-left: 38px;
+  font-weight: bold;
+}
+
+.education ul{
+  padding: 6px;
+  padding-left: 60px;
+  color: antiquewhite;
+  list-style-type:square;
+  font-size: 18px;
+}
+
+.management{
+  height: 160vh;
+  background-color: hsl(240, 20%, 99%);
+  /* text-align: center; */
+  padding: 25px;
+}
+.management h1{
+  text-align: center;
+    font-size: 48px;
+  color: rgb(255, 89, 0);
+}
+
+ .management image{
+  width: 100px;
+  height: 30px;
+  padding-left: 20px;
+}
+.chairman{
+  padding-top: 5px;
+  padding-left: 50px;
+  padding-right: 60px;
+}
+.chairman p{
+  font-size: 18px;
+  padding-top: 10px;
+  padding-left: 38px;
+  padding-right: 30px;
+  
+}
+.chairman h1{
+  font-family: "Roboto";
+  text-align: left;
+  padding-bottom: 5px;
+  padding-left: 38px;
+  color: black;
+  font-weight: bold;
+  font-size: 43px;
+  padding-top: 16px;
+}
+.chairman h1 span{
+  font-weight: 500;
+  color: rgb(255, 89, 0);
+}
+.admins{
+  padding-top: 49px;
+  padding-bottom: 60px;
+}
+.admins h1{
+  font-family: "Roboto";
+  text-decoration: dotted;
+  font-size: 40px;
+  font-weight: 550;
+  color: orangered;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.admins p{
+  text-align: center;
+}
+.admins h3{
+  text-align: center;
+}
+.adm p{
+  font-size: 16px;
+}
+
+.error {
+    color:white;
+    font-size: 14px;
+    background-color: rgba(227, 12, 12, 0.79);
+    height: 4vh;
+    width: 12vw;
+    text-align: center;
+    margin-left: 80px;
+    align-items: center;
+}
+
+.contact{
+  background: linear-gradient(red,yellow,orange,white);
+}
+.contact input{
+  padding-top: 5px;
+  width: 25vw;
+}
+
+.contact label{
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+.contact h1{
+  color: rgba(6, 6, 6, 0.929);
+  font-size: 40px;
+  font-weight: 500;
+  padding: 6px;
+  margin-bottom: 8px;
+}
+
+.contact p{
+  font-size: 32px;
+  color: black;
+  font-weight: 500;
+}
+
+.contact button{
+  background-color:lightseagreen;
+  width: 150px;
+  padding: 6px;
+  color: hwb(240 96% 1%);
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 0 none;
+}
+
+.contact button:hover{
+  background-color: orangered;
+  transition: all ease-in-out 2s;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RGMCET Examination Portal</title>
+  <link rel="shortcut icon" href="./images/rgm-icon.jpeg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand ml-3" href="#"><img src="./images/rgm-icon.jpeg" style="width: 40px;" alt="logo"> RGMCET</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse ml-auto mr-3" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"><a class="nav-link" href="./index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="./login-page.html">Login</a></li>
+        <li class="nav-item"><a class="nav-link" href="./about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://rgmexams.co.in/Results.php">Results</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://rgmexams.co.in/Examinations.php">Notification</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://rgmexams.co.in/Generate_Form.php">Examination Forms</a></li>
+        <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section with Background -->
+  <div class="bg-container" id="top">
+    <div class="overlay"></div>
+    <div class="middle-container text-white text-center">
+    <h1>Welcome to<span> RGMCET - Examination Portal</span></h1>
+      <p>Interface between Examination Cell of College and Students to enhance Transparency, Accountability, Reliability and Efficiency in the whole Fee Payment process</p>
+      <br>
+      <br>
+    
+      <!-- <a href="./login-page.html" class="btn button btn-info mt-3">Login</a> -->
+    </div>
+  </div>
+
+
+    <div class="contact d-flex flex-column text-center pt-5 pb-5 ">
+          
+        <h1>Contact Form</h1>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required><br><br>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" pattern="[6-9][0-9]{9}" required><br><br>
+
+                <h1>Discription</h1>
+
+                <textarea name="" id="message" cols="60" placeholder="Type your message here..." rows="10"></textarea> <br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+            <br>
+            <br>
+
+    </div>
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white pt-5 ">
+    <div class="container">
+      <div class="row">
+
+        <!-- RGMCET Examination Details -->
+        <div class="col-md-4">
+          <h5>RGMCET - Examination Branch</h5>
+          <p>NH-40, Nerawada 'X' Roads,<br>Nandyala, Nandyala District,<br>Andhra Pradesh 518501</p>
+          <p>Phone: +91 9866308471<br>Email: rgmexam@gmail.com</p>
+        </div>
+
+        <!-- About RGM -->
+        <div class="col-md-4">
+          <h5>About RGMCET</h5>
+          <p>Rajeev Gandhi Memorial College of Engineering and Technology is an autonomous college located in Nandyal, Andhra Pradesh, India. Affiliated to JNTUA and accredited by NBA.</p>
+          <ul>
+            <a href="https://en.wikipedia.org/wiki/Rajeev_Gandhi_Memorial_College_of_Engineering_and_Technology" ><i class="bi bi-buildings mr-3 icons"></i></a>
+            <a href="https://www.youtube.com/results?search_query=rgm+engineering+college+nandyal"><i class="bi bi-youtube mr-3 icons"></i></a>
+            <a  href="https://www.rgmcet.edu.in/"><i class="bi bi-google mr-3 icons"></i></a>
+            <a href="https://www.instagram.com/rgmcet09/"><i class="bi bi-instagram mr-3 icons"></i></a>
+            <a href="#"><i class="bi bi-person-lines-fill icons"></i></a>
+          </ul>
+        </div>
+
+        <!-- Developer Details -->
+        <div class="col-md-4">
+          <h5>Developer Info</h5>
+          <p>Developed by K Jayaram <br>From RGMCET <br>Phone: +91 8498935608 <br>Email: kuruvajayaram3@gmail.com</p>
+          <ul >
+            <a href="https://www.linkedin.com/in/jaya-ram-774646314/" ><i class="bi bi-linkedin mr-3 icons"></i></a>
+            <a href="https://github.com/Jayaram5685"><i class="bi bi-github icons mr-3 icons"></i></a>
+            <a  href="https://www.instagram.com/__jai__56_/"><i class="bi bi-instagram mr-3 icons"></i></a>
+            <a href="https://leetcode.com/u/jayaram_5685/"><img src="./images/leetcode.png" width="23px" class="mb-2" alt="leetcode"></a>
+          </ul>
+        </div>
+
+      </div>
+      <hr class="bg-white">
+      <p class="text-center mb-0">© Copyright <span class="text-info">Jayaram</span> from RGMCET. All Rights Reserved.</p>
+    </div>
+    <br><br>
+    <div class="d-flex justify-content-end mr-3">
+        <a href="#top"> <i class="bi bi-chevron-double-up arrow"></i>
+    </a>
+    </div>
+    <br>
+  </footer>
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
